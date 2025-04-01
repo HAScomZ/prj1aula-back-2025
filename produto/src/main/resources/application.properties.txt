@@ -1,1 +1,6 @@
 spring.application.name=produto
+
+spring.profiles.active=test
+
+#habilita o spring a gerenciar as transações até a camada: service
+spring.jpa.open-in-view=false
